@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <title>Quiz Home</title>
+</head>
+<body>
+  <div class="home-container">
+    <h1>Welcome to the Quiz</h1>
+    <label for="name">Name</label>
+    <input type="text" id="name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" required>
+
+    <button class="start-btn" onclick="startQuiz()">Start Quiz</button>
+  </div>
+
+  <script>
+    function startQuiz() {
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+
+      if (name && email) {
+        // Save to localStorage
+        localStorage.setItem('userName', name);
+        localStorage.setItem('userEmail', email);
+
+        // Redirect to quiz page
+        window.location.href = 'quiz.html';
+      } else {
+        alert('Please enter both your name and email.');
+      }
+    }
+  </script>
+</body>
+</html>
