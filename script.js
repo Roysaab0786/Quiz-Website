@@ -275,5 +275,365 @@ const questions = [
       { text: '1872', correct: false },
       { text: '1912', correct: true }
     ]
+  },
+  {
+    question: 'Who wrote the play "Romeo and Juliet"?',
+    answers: [
+      { text: 'William Shakespeare', correct: true },
+      { text: 'Charles Dickens', correct: false },
+      { text: 'George Orwell', correct: false },
+      { text: 'Leo Tolstoy', correct: false }
+    ]
+  },
+  {
+    question: 'What is the capital of France?',
+    answers: [
+      { text: 'Madrid', correct: false },
+      { text: 'Paris', correct: true },
+      { text: 'Berlin', correct: false },
+      { text: 'Rome', correct: false }
+    ]
+  },
+  {
+    question: 'Which planet is known as the Red Planet?',
+    answers: [
+      { text: 'Earth', correct: false },
+      { text: 'Mars', correct: true },
+      { text: 'Jupiter', correct: false },
+      { text: 'Venus', correct: false }
+    ]
+  },
+  {
+    question: 'What is the largest mammal in the world?',
+    answers: [
+      { text: 'Elephant', correct: false },
+      { text: 'Blue Whale', correct: true },
+      { text: 'Giraffe', correct: false },
+      { text: 'Shark', correct: false }
+    ]
+  },
+  {
+    question: 'Who painted the Mona Lisa?',
+    answers: [
+      { text: 'Vincent van Gogh', correct: false },
+      { text: 'Leonardo da Vinci', correct: true },
+      { text: 'Pablo Picasso', correct: false },
+      { text: 'Claude Monet', correct: false }
+    ]
+  },
+  {
+    question: 'Which gas do plants absorb during photosynthesis?',
+    answers: [
+      { text: 'Oxygen', correct: false },
+      { text: 'Carbon Dioxide', correct: true },
+      { text: 'Nitrogen', correct: false },
+      { text: 'Hydrogen', correct: false }
+    ]
+  },
+  {
+    question: 'Who was the first man to walk on the moon?',
+    answers: [
+      { text: 'Buzz Aldrin', correct: false },
+      { text: 'Neil Armstrong', correct: true },
+      { text: 'Yuri Gagarin', correct: false },
+      { text: 'Alan Shepard', correct: false }
+    ]
+  },
+  {
+    question: 'What is the chemical symbol for water?',
+    answers: [
+      { text: 'H2O', correct: true },
+      { text: 'O2', correct: false },
+      { text: 'CO2', correct: false },
+      { text: 'NaCl', correct: false }
+    ]
+  },
+  {
+    question: 'Which is the tallest mountain in the world?',
+    answers: [
+      { text: 'Mount Kilimanjaro', correct: false },
+      { text: 'Mount Everest', correct: true },
+      { text: 'K2', correct: false },
+      { text: 'Mount Elbrus', correct: false }
+    ]
+  },
+  {
+    question: 'What is the currency of Japan?',
+    answers: [
+      { text: 'Yuan', correct: false },
+      { text: 'Yen', correct: true },
+      { text: 'Won', correct: false },
+      { text: 'Ringgit', correct: false }
+    ]
+  },
+  {
+    question: 'What is the smallest prime number?',
+    answers: [
+      { text: '1', correct: false },
+      { text: '2', correct: true },
+      { text: '3', correct: false },
+      { text: '5', correct: false }
+    ]
+  },
+  {
+    question: 'Who discovered penicillin?',
+    answers: [
+      { text: 'Marie Curie', correct: false },
+      { text: 'Alexander Fleming', correct: true },
+      { text: 'Isaac Newton', correct: false },
+      { text: 'Albert Einstein', correct: false }
+    ]
+  },
+  {
+    question: 'Which is the longest river in the world?',
+    answers: [
+      { text: 'Amazon River', correct: false },
+      { text: 'Nile River', correct: true },
+      { text: 'Yangtze River', correct: false },
+      { text: 'Mississippi River', correct: false }
+    ]
+  },
+  {
+    question: 'What is the largest ocean on Earth?',
+    answers: [
+      { text: 'Atlantic Ocean', correct: false },
+      { text: 'Pacific Ocean', correct: true },
+      { text: 'Indian Ocean', correct: false },
+      { text: 'Arctic Ocean', correct: false }
+    ]
+  },
+  {
+    question: 'In which year did World War II end?',
+    answers: [
+      { text: '1918', correct: false },
+      { text: '1939', correct: false },
+      { text: '1945', correct: true },
+      { text: '1950', correct: false }
+    ]
+  },
+  {
+    question: 'What is the boiling point of water at sea level?',
+    answers: [
+      { text: '90°C', correct: false },
+      { text: '100°C', correct: true },
+      { text: '110°C', correct: false },
+      { text: '120°C', correct: false }
+    ]
+  },
+  {
+    question: 'Which element has the atomic number 1?',
+    answers: [
+      { text: 'Oxygen', correct: false },
+      { text: 'Hydrogen', correct: true },
+      { text: 'Helium', correct: false },
+      { text: 'Carbon', correct: false }
+    ]
+  },
+  {
+    question: 'What is the largest desert in the world?',
+    answers: [
+      { text: 'Sahara Desert', correct: false },
+      { text: 'Antarctic Desert', correct: true },
+      { text: 'Gobi Desert', correct: false },
+      { text: 'Kalahari Desert', correct: false }
+    ]
+  },
+  {
+    question: 'Which country gifted the Statue of Liberty to the USA?',
+    answers: [
+      { text: 'United Kingdom', correct: false },
+      { text: 'France', correct: true },
+      { text: 'Germany', correct: false },
+      { text: 'Italy', correct: false }
+    ]
+  },
+  {
+    question: 'Who is known as the "Father of Computers"?',
+    answers: [
+      { text: 'Alan Turing', correct: false },
+      { text: 'Charles Babbage', correct: true },
+      { text: 'John von Neumann', correct: false },
+      { text: 'Ada Lovelace', correct: false }
+    ]
+  },
+  {
+    question: 'Who was the first Prime Minister of India?',
+    answers: [
+      { text: 'Mahatma Gandhi', correct: false },
+      { text: 'Jawaharlal Nehru', correct: true },
+      { text: 'Sardar Patel', correct: false },
+      { text: 'Subhas Chandra Bose', correct: false }
+    ]
+  },
+  {
+    question: 'What is the capital of India?',
+    answers: [
+      { text: 'Mumbai', correct: false },
+      { text: 'New Delhi', correct: true },
+      { text: 'Kolkata', correct: false },
+      { text: 'Bangalore', correct: false }
+    ]
+  },
+  {
+    question: 'Which Indian city is known as the "Pink City"?',
+    answers: [
+      { text: 'Jaipur', correct: true },
+      { text: 'Udaipur', correct: false },
+      { text: 'Jodhpur', correct: false },
+      { text: 'Agra', correct: false }
+    ]
+  },
+  {
+    question: 'Who is known as the "Father of the Nation" in India?',
+    answers: [
+      { text: 'Bhagat Singh', correct: false },
+      { text: 'Mahatma Gandhi', correct: true },
+      { text: 'Rajendra Prasad', correct: false },
+      { text: 'Jawaharlal Nehru', correct: false }
+    ]
+  },
+  {
+    question: 'What is the national animal of India?',
+    answers: [
+      { text: 'Lion', correct: false },
+      { text: 'Tiger', correct: true },
+      { text: 'Elephant', correct: false },
+      { text: 'Peacock', correct: false }
+    ]
+  },
+  {
+    question: 'What is the national flower of India?',
+    answers: [
+      { text: 'Rose', correct: false },
+      { text: 'Lotus', correct: true },
+      { text: 'Marigold', correct: false },
+      { text: 'Sunflower', correct: false }
+    ]
+  },
+  {
+    question: 'In which year did India gain independence?',
+    answers: [
+      { text: '1945', correct: false },
+      { text: '1947', correct: true },
+      { text: '1950', correct: false },
+      { text: '1935', correct: false }
+    ]
+  },
+  {
+    question: 'What is the official language of India?',
+    answers: [
+      { text: 'Hindi', correct: true },
+      { text: 'English', correct: false },
+      { text: 'Bengali', correct: false },
+      { text: 'Tamil', correct: false }
+    ]
+  },
+  {
+    question: 'Who was the first President of India?',
+    answers: [
+      { text: 'Jawaharlal Nehru', correct: false },
+      { text: 'Rajendra Prasad', correct: true },
+      { text: 'Sarvepalli Radhakrishnan', correct: false },
+      { text: 'Zakir Hussain', correct: false }
+    ]
+  },
+  {
+    question: 'Which river is known as the "Ganga of the South"?',
+    answers: [
+      { text: 'Godavari', correct: false },
+      { text: 'Cauvery', correct: true },
+      { text: 'Krishna', correct: false },
+      { text: 'Tungabhadra', correct: false }
+    ]
+  },
+  {
+    question: 'Who is the author of the Indian national anthem?',
+    answers: [
+      { text: 'Bankim Chandra Chatterjee', correct: false },
+      { text: 'Rabindranath Tagore', correct: true },
+      { text: 'Sarojini Naidu', correct: false },
+      { text: 'Subhas Chandra Bose', correct: false }
+    ]
+  },
+  {
+    question: 'What is the national sport of India?',
+    answers: [
+      { text: 'Hockey', correct: true },
+      { text: 'Cricket', correct: false },
+      { text: 'Football', correct: false },
+      { text: 'Kabaddi', correct: false }
+    ]
+  },
+  {
+    question: 'Which state is known as the "Land of Five Rivers"?',
+    answers: [
+      { text: 'Punjab', correct: true },
+      { text: 'Haryana', correct: false },
+      { text: 'Rajasthan', correct: false },
+      { text: 'Uttar Pradesh', correct: false }
+    ]
+  },
+  {
+    question: 'Which is the largest state in India by area?',
+    answers: [
+      { text: 'Madhya Pradesh', correct: false },
+      { text: 'Rajasthan', correct: true },
+      { text: 'Uttar Pradesh', correct: false },
+      { text: 'Maharashtra', correct: false }
+    ]
+  },
+  {
+    question: 'Which Indian monument is known as the "Symbol of Love"?',
+    answers: [
+      { text: 'Qutub Minar', correct: false },
+      { text: 'Taj Mahal', correct: true },
+      { text: 'Red Fort', correct: false },
+      { text: 'India Gate', correct: false }
+    ]
+  },
+  {
+    question: 'Which is the smallest state in India by area?',
+    answers: [
+      { text: 'Sikkim', correct: false },
+      { text: 'Goa', correct: true },
+      { text: 'Tripura', correct: false },
+      { text: 'Manipur', correct: false }
+    ]
+  },
+  {
+    question: 'Who is known as the "Iron Man of India"?',
+    answers: [
+      { text: 'Bhagat Singh', correct: false },
+      { text: 'Sardar Vallabhbhai Patel', correct: true },
+      { text: 'Subhas Chandra Bose', correct: false },
+      { text: 'Mahatma Gandhi', correct: false }
+    ]
+  },
+  {
+    question: 'Which Indian festival is known as the "Festival of Lights"?',
+    answers: [
+      { text: 'Holi', correct: false },
+      { text: 'Diwali', correct: true },
+      { text: 'Dussehra', correct: false },
+      { text: 'Pongal', correct: false }
+    ]
+  },
+  {
+    question: 'Which Indian state is known as "God’s Own Country"?',
+    answers: [
+      { text: 'Tamil Nadu', correct: false },
+      { text: 'Kerala', correct: true },
+      { text: 'Karnataka', correct: false },
+      { text: 'Andhra Pradesh', correct: false }
+    ]
+  },
+  {
+    question: 'In which year was the Indian Constitution adopted?',
+    answers: [
+      { text: '1947', correct: false },
+      { text: '1950', correct: true },
+      { text: '1952', correct: false },
+      { text: '1949', correct: false }
+    ]
   }
 ]
